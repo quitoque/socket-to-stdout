@@ -2,4 +2,4 @@ all: build
 
 build:
 	cargo build --release
-	strip target/release/echo-socket
+	strip target/release/socket-to-stdout
